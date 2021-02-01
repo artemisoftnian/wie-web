@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Nav /> should render correctly 1`] = `
+<nav
+  class="navbar navbar-fixed-top main-navigation navbar-solid"
+  id="fixedTopNav"
+  itemtype="https://schema.org/SiteNavigationElement"
+  role="navigation"
+  style="opacity: 0.9;"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="navbar-header"
+    >
+      <div
+        class="navbar-brand"
+        itemtype="https://schema.org/Organization"
+        style="padding: 5px 15px 5px;"
+      >
+        <span
+          class="sr-only"
+        >
+          WieCare
+        </span>
+        <a
+          aria-current="page"
+          class=""
+          href="/"
+        >
+          static-query
+          <div
+            class="homeLink"
+          >
+            Work Initiative And Entrepreneurship
+          </div>
+        </a>
+      </div>
+      <button
+        aria-expanded="false"
+        class="navbar-toggle collapsed hamburger "
+        id="hamburger-1"
+        type="button"
+      >
+        <span
+          class="line"
+        />
+        <span
+          class="line"
+        />
+        <span
+          class="line"
+        />
+        <span
+          class="sr-only"
+        >
+          WieCare
+        </span>
+      </button>
+    </div>
+    <div
+      aria-expanded="false"
+      class="navbar-collapse collapse "
+      id="main-nav-collapse"
+    >
+      <ul
+        class="nav navbar-nav navbar-right"
+        role="menu"
+      >
+        <li
+          class="donate"
+          role="menuitem"
+        >
+          <a
+            aria-current="page"
+            class=""
+            href="/"
+          >
+            <span>
+              Home
+            </span>
+          </a>
+        </li>
+        <li
+          class="donate"
+          role="menuitem"
+        >
+          <a
+            href="/about"
+          >
+            <span>
+              About Us
+            </span>
+          </a>
+        </li>
+        <li
+          class="donate"
+          role="menuitem"
+        >
+          <a
+            href="/about"
+          >
+            <span>
+              Get Involved
+            </span>
+          </a>
+        </li>
+        <li
+          class="donate"
+          role="menuitem"
+        >
+          <a
+            href="/about"
+          >
+            <span>
+              Programs
+            </span>
+          </a>
+        </li>
+        <li
+          class="donate"
+          role="menuitem"
+        >
+          <a
+            href="/about"
+          >
+            <span>
+              Proyects
+            </span>
+          </a>
+        </li>
+        <li
+          class="donate"
+          role="menuitem"
+        >
+          <a
+            href="/about"
+          >
+            <span>
+              Events
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+`;

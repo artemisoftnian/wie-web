@@ -1,0 +1,143 @@
+.logo_holder {
+  width: 50px;
+  height: auto;
+}
+
+.adjust-wrap {
+  width: 90%;
+}
+
+.index .fluid-grid:hover h2,
+.index .fluid-grid:hover span {
+  color: #fff;
+  text-decoration: underline;
+}
+/* slider default button overides */
+.slider-control {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+/* overide bootstrap mobile nav styles */
+.container-fluid > .navbar-collapse,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container > .navbar-header {
+  padding: 8px;
+}
+
+.navbar-fixed-bottom .navbar-collapse,
+.navbar-fixed-top .navbar-collapse {
+  max-height: 500px;
+  overflow-x: hidden;
+}
+
+.main-navigation .navbar-toggle {
+  margin-top: -5px;
+}
+
+.main-overlay {
+  height: 80vh;
+}
+
+.light-text {
+  color: #fff;
+}
+
+/* overides for social icons in about page for each user */
+.meet-social i {
+  background-color: #091f40;
+  border-radius: 50%;
+  color: #ffffff;
+  display: inline-block;
+  height: 50px;
+  margin-top: 10px;
+  position: relative;
+  transition: all 0.3s;
+  width: 50px;
+}
+
+.meet-social svg {
+  left: 50%;
+  margin-left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.iframe-container {
+  height: 620px;
+}
+
+/* Media Queries below are for donorbox iframe */
+@media (max-width: 685px) {
+  .iframe-container {
+    height: 800px;
+  }
+}
+
+.iframe-container {
+  height: 620px;
+}
+
+/* Media Queries below are for donorbox iframe */
+@media (max-width: 685px) {
+  .iframe-container {
+    height: 800px;
+  }
+}
+
+.testimonial-row {
+  display: flex;
+  flex-direction: 'row';
+  justify-content: center;
+  align-items: center;
+  margin: 85px 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .testimonial-row {
+    flex-direction: column;
+  }
+}
+
+.testimonial-text {
+  margin: 0;
+  flex: 1;
+}
+
+#branchOfService {
+  padding-bottom: inherit;
+  padding-top: inherit;
+}
+
+
+.story h2 {
+  padding: 15px;
+}
+
+.story-last h2 {
+  color: #C5203E;
+}
+
+.lead-in {
+  padding: 25px;
+}
+
+.lead-in h1 {
+  text-align: center;
+}
+
+.lead-in p {
+  text-align: center;
+  color: #C5203E;
+}
+
+.testimonial-row img {
+  border-radius: 50%;
+}
